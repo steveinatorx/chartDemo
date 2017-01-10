@@ -18,6 +18,16 @@ module.exports = {
     },
   module: {
     loaders: [
+       {
+        test: /input-moment\/.*\.js$/,
+        //exclude: /node_modules/,
+        loader: 'babel'
+        /*query: {
+          retainLines: true,
+          cacheDirectory: true
+        }*/
+      },
+      { test: /\.less$/, loader: "style!css!less" },
       {
         test: /\.js$/,
         exclude: /node_modules/,

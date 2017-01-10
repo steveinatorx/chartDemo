@@ -3,6 +3,15 @@ export default {
     visibility: 'hidden'
   },
   topDiv: {
-    marginTop: '5em'
+    marginTop: '0em'
+  },
+  logo: {
+    width: '50px',
+    height: '50px',
+    verticalAlign: 'middle'
+  },
+  header: {
+    display: 'inline',
+    marginLeft: '0.5em'
   }
 };
